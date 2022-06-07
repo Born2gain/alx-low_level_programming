@@ -5,9 +5,9 @@ int n = 0;
 char name[8] = "_putchar";
 while (n < 8)
 {
-	putchar(name[n]);
+	_putchar(name[n]);
 	n++;
 }
-putchar('\n');
+_putchar('\n');
 return 0;
 }

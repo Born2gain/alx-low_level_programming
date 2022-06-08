@@ -1,16 +1,12 @@
 #include "main.h"
-/**
- *prints _putchar followed by a new line
- *
- * return 0 on success
- */
-int main (void)
+void print_alphabet(void)
 {
 
-        int n = 0;
-        char name[8] = "_putchar";
+        for(char i = 'a'; i <= 'z'; i++)
+                {
 
-        while (n < 8)
-                {                                        putchar(name[n]);
-                n++;                                     }                                        putchar('\n');
-        return 0;                        }
+                putchar(i);
+
+                }
+                putchar('\n');
+}

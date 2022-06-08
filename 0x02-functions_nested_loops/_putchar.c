@@ -1,10 +1,9 @@
 #include <unistd.h>
 /**
- * main - help to print out chatacters
+ * main - help to print out characters
  *
- * Description: print out the required results
  *
- * Return: Always return 0
+ * return: always return 0
  *
  */
 int _putchar(char c)

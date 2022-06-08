@@ -1,12 +1,14 @@
 #include "main.h"
 void print_alphabet(void)
 {
+	char i = 'a';
 
-        for(char i = 'a'; i <= 'z'; i++)
-                {
+        while(i <= 'z')
+	{
 
                 putchar(i);
+		i++;
 
-                }
-                putchar('\n');
+	}
+	putchar('\n');
 }

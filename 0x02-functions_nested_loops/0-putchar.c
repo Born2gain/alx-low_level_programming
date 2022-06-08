@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- 
- * main - printsout the characters
+ * main - prints out the characters
  *
- * Description:  a program that prints _putchar, followed by a new line
+ * Description:  prints out _putchar
  *
  * Return: Always 0 (Success)
  *

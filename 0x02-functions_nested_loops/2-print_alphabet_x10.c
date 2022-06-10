@@ -17,11 +17,9 @@ void print_alphabet_x10(void)
 	{
 		for (i = 'a'; i <= 'z'; i++)
 		{
-			_putchar(i);
+			putchar(i);
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 	
-	
-	return (0);
 }

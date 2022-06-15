@@ -4,7 +4,7 @@
  * _atoi - a function that converts string to integer
  * @s: An input string
  *
- * Return: Always 0
+ * Return: any integer
  *
  */
 int _atoi(char *s)
@@ -37,5 +37,5 @@ int _atoi(char *s)
 	{
 		total = (-total);
 	}
-	return (0);
+	return (total);
 }

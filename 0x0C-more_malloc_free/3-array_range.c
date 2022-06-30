@@ -3,8 +3,8 @@
 
 /**
  * array_range - creates an array of integers.
- * @min: first integer
- * @max: last integer 
+ * @min: first integer number
+ * @max: last integer number
  *
  * Return: pointer to newly allocated memory or NULL if fails
  */

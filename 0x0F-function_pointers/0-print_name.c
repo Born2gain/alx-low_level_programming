@@ -2,7 +2,7 @@
 /**
  * print_name - print a name
  * @name: pointer to a string
- * @f: pointer to a function
+ * @f: pointert to a function
  *
  * Dsecription: return the required result
  *

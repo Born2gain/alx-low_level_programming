@@ -5,7 +5,7 @@
 
 /**
  * print_strings - prints all strings with a separator
- * @separator: separator string
+ * @separator: separator strings
  * @n: int, number of undefined arguments
  */
 
@@ -18,14 +18,14 @@ va_start(list, n);
 
 for (i = 0; i < n; i++)
 {
-        c = va_arg(list, char*);
-        if (c != NULL)
-                printf("%s", c);
-        else
-                printf("(nil)");
+	c = va_arg(list, char*);
+	if (c != NULL)
+		printf("%s", c);
+	else
+		printf("(nil)");
 
-        if (i != n - 1 && separator != NULL)
-                printf("%s", separator);
+	if (i != n - 1 && separator != NULL)
+		printf("%s", separator);
 }
 va_end(list);
 

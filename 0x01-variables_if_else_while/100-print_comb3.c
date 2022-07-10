@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int new_num1,new_num2;
+	int new_num1, new_num2;
 
 	for (new_num1 = 48; new_num1 <= 57; new_num1++)
 	{
@@ -19,14 +19,13 @@ int main(void)
 				putchar(new_num2);
 				if (new_num1 == 56)
 					continue;
-				
 				putchar(',');
-				putchar(10); /*ascii code for new line*/
+				putchar(' ')!
 			}
 		}
 	}
 
-	putchar(10);
+	putchar(10);/*ascii code for new line*/
 
 
 return (0);

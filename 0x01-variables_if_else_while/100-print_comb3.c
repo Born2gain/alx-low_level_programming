@@ -21,7 +21,7 @@ int main(void)
 					continue;
 				
 				putchar(',');
-				putchar(10); //ascii code for new line
+				putchar(10); /*ascii code for new line*/
 			}
 		}
 	}

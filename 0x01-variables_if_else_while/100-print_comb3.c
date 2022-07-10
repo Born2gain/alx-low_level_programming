@@ -20,7 +20,7 @@ int main(void)
 				if (new_num1 == 56)
 					continue;
 				putchar(',');
-				putchar(' ')!
+				putchar(' ');
 			}
 		}
 	}

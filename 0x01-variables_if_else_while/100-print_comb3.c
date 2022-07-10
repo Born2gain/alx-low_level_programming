@@ -7,26 +7,27 @@
  */
 int main(void)
 {
-int ch;
-int n;
-for (ch = 48; ch <= 57; ch++)
-{
-for (n = 49; n <= 57; n++)
-{
-if (n > ch)
-{
-putchar(ch);
-putchar(n);
-if (ch != 56 || n != 57)
-{
-putchar(44);
-putchar(32);
-}
-}
-}
-}
+	int new_num1,new_num2;
 
-putchar(10); /* this is an ascii code for new line*/
+	for (new_num1 = 48; new_num1 <= 57; new_num1++)
+	{
+		for (new_num2 = 47; new_num2 <= 57; new_num2++)
+		{
+			if (new_num2 > new_num1)
+			{
+				putchar(new_num1);
+				putchar(new_num2);
+				if (new_num1 == 56)
+					continue;
+				
+				putchar(',');
+				putchar(10); //ascii code for new line
+			}
+		}
+	}
+
+	putchar(10);
+
 
 return (0);
 }
